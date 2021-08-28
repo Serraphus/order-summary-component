@@ -1,0 +1,65 @@
+body {
+    max-width: 1440px;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    display: flexbox;
+    align-items: center;
+}
+
+.main-container {
+    background-color: hsl(225, 100%, 98%);
+    max-width: 25%;
+    display: flexbox;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.header-img {
+    background-image: url('../images/illustration-hero.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1 {
+    font-weight: 900;
+    color: black;
+}
+
+.main-container {
+    display: flexbox;
+    text-align: center;
+    margin: auto;
+    min-width: 300px;
+    background-color: white;
+}
+
+.plan-container {
+    display: inline-flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1em;
+    margin: 1em auto;
+    max-width: 70%;
+    border-radius: 10px;
+}
+
+.proceed-button {
+    padding: 1em;
+    margin: 1em auto;
+    max-width: 70%;
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+}
+
+.cancel-button {
+    padding: 1em;
+    margin: 1em auto;
+    max-width: max-content;
+}
