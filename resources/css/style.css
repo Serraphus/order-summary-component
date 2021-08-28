@@ -10,20 +10,13 @@ body {
 }
 
 .main-container {
-    background-color: hsl(225, 100%, 98%);
+    background-image: url(../images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
     max-width: 25%;
     display: flexbox;
     margin: 0 auto;
     border-radius: 10px;
-}
-
-.header-img {
-    background-image: url('../images/illustration-hero.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 h1 {
