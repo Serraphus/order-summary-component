@@ -5,7 +5,6 @@ body {
     font-family: 'Red Hat Display';
     font-weight: 500;
     color: hsl(224, 23%, 55%);
-    display: flexbox;
     align-items: center;
 }
 
@@ -13,27 +12,32 @@ body {
     background-image: url(../images/illustration-hero.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: white;
     max-width: 25%;
-    display: flexbox;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin: 2em auto;
     border-radius: 10px;
+    min-width: 350px;
+}
+
+.main-container p {
+    margin: auto;
+    padding: 0.5em 1em;
 }
 
 h1 {
+    margin-top: 6em;
     font-weight: 900;
     color: black;
 }
 
-.main-container {
-    display: flexbox;
-    text-align: center;
-    margin: auto;
-    min-width: 300px;
-    background-color: white;
-}
-
 .plan-container {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     background-color: hsl(225, 100%, 98%);
     padding: 1em;
@@ -42,17 +46,25 @@ h1 {
     border-radius: 10px;
 }
 
-.proceed-button {
+#proceed-button {
     padding: 1em;
-    margin: 1em auto;
+    margin: 0.5em auto;
     max-width: 70%;
     color: hsl(225, 100%, 98%);
     background-color: hsl(245, 75%, 52%);
     border-radius: 10px;
+    cursor: pointer;
 }
 
-.cancel-button {
+#cancel-button {
     padding: 1em;
-    margin: 1em auto;
+    margin: auto;
+    margin-bottom: 1em;
     max-width: max-content;
+    cursor: pointer;
+}
+
+.attribution {
+    text-align: center;
+    margin: 2em;
 }
