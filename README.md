@@ -26,7 +26,7 @@ Users should be able to:
 ### Screenshot
 
 [](resources/Screenshot 2021-08-30 at 12-05-30 Frontend Mentor Order summary card.png)
-
+![](https://github.com/Serraphus/order-summary-component/blob/main/resources/Screenshot%202021-08-30%20at%2012-05-30%20Frontend%20Mentor%20Order%20summary%20card.png)
 See the screenshot in the path above. (I don't know how to link it)
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
